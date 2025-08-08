@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#countLabel {
+  font-size: 80px;
+}
+
+#decreaseBtn {
+  color: white;
+  background-color: rgb(20, 133, 213);
+  border: 2px solid black;
+  padding: 10px 30px;
+  font-size: 25px;
+  margin-right: 10px;
+  border-radius: 8px;
+  transition: background-color 0.25s;
+}
+
+#decreaseBtn:hover {
+  background-color: rgb(16, 110, 180);
+}
+
+#decreaseBtn:active {
+  scale: 0.95;
+}
+
+#resetBtn {
+  color: white;
+  background-color: rgb(20, 133, 213);
+  border: 2px solid black;
+  padding: 10px 30px;
+  font-size: 25px;
+  margin-right: 10px;
+  border-radius: 8px;
+  transition: background-color 0.25s;
+}
+
+#resetBtn:hover {
+  background-color: rgb(16, 110, 180);
+}
+
+#resetBtn:active {
+  scale: 0.95;
+}
+
+#increaseBtn {
+  color: white;
+  background-color: rgb(20, 133, 213);
+  border: 2px solid black;
+  padding: 10px 30px;
+  font-size: 25px;
+  margin-right: 10px;
+  border-radius: 8px;
+  transition: background-color 0.25s;
+}
+
+#increaseBtn:hover {
+  background-color: rgb(16, 110, 180);
+}
+
+#increaseBtn:active {
+  scale: 0.95;
+}
