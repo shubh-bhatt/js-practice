@@ -1,0 +1,13 @@
+#todo {
+  width: min-content;
+  cursor: pointer;
+}
+
+#todo:hover {
+  color: red;
+  text-decoration: line-through;
+}
+
+#warn {
+  color: red;
+}
